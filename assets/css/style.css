@@ -1,0 +1,11 @@
+footer {
+  background-color: blue;
+  height: 50px;
+  text-align: center;
+}
+
+.jumbotron {
+  background-image: url('../images/sunrise.jpg');
+  background-size: cover;
+  height: 500px;
+}
