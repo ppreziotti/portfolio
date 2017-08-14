@@ -1,6 +1,10 @@
+body {
+  background-image: url('../images/concrete_seamless.png');
+}
+
 footer {
   background-color: blue;
-  height: 70px;
+  height: 90px;
   text-align: center;
 }
 
@@ -11,11 +15,17 @@ footer {
   margin-top: 0px;
 }
 
+nav {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
 .social {
   height: 50px;
   width: 50px;
 }
 
-nav {
-  margin-bottom: 0;
+#social-container {
+  margin-top: 10px;
+  margin-bottom:  10px;
 }
