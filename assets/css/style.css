@@ -1,3 +1,8 @@
+#about {
+  color: white;
+  margin-top: 50px;
+}
+
 body {
   background-image: url('../images/concrete_seamless.png');
   box-sizing: border-box;
@@ -12,14 +17,14 @@ footer {
   text-align: center;
 }
 
-.img-thumbnail {
+.img-circle {
   height: 200px;
   float: left;
   margin-right: 10px;
 }
 
 .jumbotron {
-  background-image: url('../images/sunrise.jpg');
+  background-image: url('../images/IMG_0895.jpg');
   background-size: cover;
   height: 500px;
   margin-top: 0;
@@ -33,6 +38,10 @@ footer {
 
 .navbar-default > .navbar a {
   color: white;
+}
+
+#portfolio {
+  margin-top: 50px;
 }
 
 .portfolio-div {
