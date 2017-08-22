@@ -12,10 +12,16 @@ footer {
   text-align: center;
 }
 
+.img-thumbnail {
+  height: 200px;
+  float: left;
+  margin-right: 10px;
+}
+
 .jumbotron {
   background-image: url('../images/sunrise.jpg');
   background-size: cover;
-  height: 700px;
+  height: 500px;
   margin-top: 0;
   margin-bottom: 40px;
 }
@@ -27,6 +33,10 @@ footer {
 
 .navbar-default > .navbar a {
   color: white;
+}
+
+.portfolio-div {
+  margin-bottom: 20px;
 }
 
 .social {

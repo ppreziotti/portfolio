@@ -28,19 +28,42 @@
           <li><a href="#portfolio">Portfolio</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
-      </div><!-- /.navbar-collapse -->
-    </div><!-- /.container-fluid -->
+      </div>
+    </div>
   </nav>
 
+  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModal" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Modal title</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p>Modal body text goes here.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary">Save changes</button>
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
   <div class="jumbotron">
-    <div class="container" id="about"></div>
+    <div class="container" id="about">
+      <img class="img img-thumbnail" src="assets/images/headshot.jpg" alt="headshot">
+      <p>I am a logistics professional seeking to start a new career in web development. My skills include HTML5, CSS3, Bootstrap, JavaScript, jQuery, Nodes.js, MySQL, MongoDB, Express, and React.js. I am a lifelong Marylander (Go O's!) who just moved to the Triangle last year but I am loving the new enviroment. I graduated from the University of Maryland Robert H. Smith School of Business in 2010 with a Bachelor of Science in Supply Chain Management. My interests include music, craft beer, cooking, and reading. I am also the proud owner of two rescued pit bulls, Rhaffy and Ziggy. Please check out some of my projects in my portfolio and feel free to contact me with feedback.</p>
+    </div>
   </div>
 
   <div class="container" id="portfolio">
 
     <div class="row">
 
-      <div class="col-sm-6 col-md-4">
+      <div class="col-sm-6 col-md-4 porfolio-div">
         <div class="thumbnail">
           <img src="./assets/images/dogmusic2.jpg" alt="Dog with headphones">
           <div class="caption">
@@ -50,7 +73,7 @@
         </div>
       </div>
 
-	    <div class="col-sm-6 col-md-4">
+	    <div class="col-sm-6 col-md-4 porfolio-div">
         <div class="thumbnail">
           <img src="./assets/images/journal.jpg" alt="Bullet Journal">
           <div class="caption">
@@ -60,7 +83,7 @@
         </div>
       </div>
 
-      <div class="col-sm-6 col-md-4">
+      <div class="col-sm-6 col-md-4 porfolio-div">
         <div class="thumbnail">
           <img src="./assets/images/hungry.jpg" alt="Hungry">
           <div class="caption">
@@ -78,7 +101,7 @@
       <div class="col-md-2">
       </div>
 
-      <div class="col-sm-6 col-md-4">
+      <div class="col-sm-6 col-md-4 porfolio-div">
         <div class="thumbnail">
           <img src="./assets/images/phish.jpg" alt="Phish logo">
           <div class="caption">
@@ -88,7 +111,7 @@
         </div>
       </div>
 
-      <div class="col-sm-6 col-md-4">
+      <div class="col-sm-6 col-md-4 porfolio-div">
         <div class="thumbnail">
           <img src="./assets/images/bracket.jpg" alt="Basketball bracket">
           <div class="caption">
@@ -106,9 +129,12 @@
 
     <div class="row">
 
-      <div class="col xs-12 col-sm-12 col-md-8">
+      <div class="col-md-2">
+      </div>
+
+      <div class="col-md-8">
         <div class="header">
-          <h1>Contact</h1>
+          <h1>Feedback? Opportunites? Please contact me below.</h1>
         </div>
 
         <div class="row">
@@ -120,27 +146,24 @@
                 <label for="inputName">Name</label>
                 <input type="text" class="form-control" id="inputName" name="name" placeholder="John Smith">
               </div>
-
               <div class="form-group">
                 <label for="inputEmail">Email</label>
                 <input type="text" class="form-control" id="inputEmail" name="_replyto" placeholder="example@gmail.com">
               </div>
-
               <div class="form-group">
                 <label for="inputMessage">Message</label>
                 <textarea class="form-control" id="inputMessage" name="message" rows="10"></textarea>
               </div>
-
               <button type="submit" class="btn btn-primary" value="Send">Submit</button>   
             </form>
           </div>
-
         </div>
+      </div>
 
+      <div class="col-md-2">
       </div>
 
     </div>
-
   </div>
 
   <footer class="footer footer-fixed-bottom">
@@ -149,7 +172,7 @@
   		  <span>&copy; Copyright 2017 Patrick Preziotti</span>
       </div>
       <div class="row" id="social-container">
-        <a href="contact.html" target="_blank"><img class="img-circle social" src="assets/images/email-icon-23.png" alt="email"></a>
+<!--         <a href="contact.html" target="_blank"><img class="img-circle social" src="assets/images/email-icon-23.png" alt="email"></a> -->
         <a href="https://github.com/ppreziotti" target="_blank"><img class="img-circle social" src="assets/images/1486967680_github_square_black.png" alt="github"></a>
         <a href="https://www.linkedin.com/in/patrick-preziotti/" target="_blank"><img class="img-circle social" src="assets/images/1486967747_linkedin_square_color.png" alt="linkedin"></a>
       </div>
