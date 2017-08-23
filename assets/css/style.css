@@ -26,9 +26,9 @@ footer {
   text-align: center;
 }
 
-.img-circle {
-  height: 200px;
+#headshot {
   float: left;
+  height: 200px;
   margin-right: 10px;
 }
 
@@ -63,11 +63,13 @@ footer {
 }
 
 .social {
+  display: inline-block;
   height: 50px;
+  margin-right: 10px;
   width: 50px;
 }
 
-#social-container {
+#social-div {
   margin-top: 10px;
   margin-bottom: 10px;
 }

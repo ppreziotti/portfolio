@@ -32,29 +32,9 @@
     </div>
   </nav>
 
-  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModal" aria-hidden="true">
-    <div class="modal-dialog" role="document">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title">Modal title</h5>
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-          </button>
-        </div>
-        <div class="modal-body">
-          <p>Modal body text goes here.</p>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-primary">Save changes</button>
-          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        </div>
-      </div>
-    </div>
-  </div>
-
   <div class="jumbotron">
     <div class="container" id="about">
-      <img class="img img-circle" src="assets/images/headshot.jpg" alt="headshot">
+      <img class="img img-circle" id="headshot" src="assets/images/headshot.jpg" alt="headshot">
       <p>Hi, I'm Patrick! I am a full-stack web developer whose skills include HTML5, CSS3, Bootstrap, JavaScript, jQuery, Nodes.js, MySQL, MongoDB, Express, and React.js. I am a lifelong Marylander (Go O's!) who just moved to the Triangle last year but I am loving the new environment. I graduated from the University of Maryland Robert H. Smith School of Business in 2010 with a Bachelor of Science in Supply Chain Management. My interests include music, craft beer, cooking, and reading. I am also the proud owner of two rescued pit bulls, Rhaffy and Ziggy. Please check out some of my projects in my portfolio and feel free to contact me with feedback.</p>
     </div>
   </div>
@@ -143,15 +123,15 @@
             <!-- Contact input form -->
             <form action="https://formspree.io/patpreziotti@gmail.com" method="POST">
               <div class="form-group">
-                <label for="inputName">Name</label>
+                <label for="inputName">Name:</label>
                 <input type="text" class="form-control" id="inputName" name="name" placeholder="John Smith">
               </div>
               <div class="form-group">
-                <label for="inputEmail">Email</label>
+                <label for="inputEmail">Email:</label>
                 <input type="text" class="form-control" id="inputEmail" name="_replyto" placeholder="example@gmail.com">
               </div>
               <div class="form-group">
-                <label for="inputMessage">Message</label>
+                <label for="inputMessage">Message:</label>
                 <textarea class="form-control" id="inputMessage" name="message" rows="10"></textarea>
               </div>
               <button type="submit" class="btn btn-primary" value="Send">Submit</button>   
@@ -167,15 +147,15 @@
   </div>
 
   <footer class="footer footer-fixed-bottom">
-  	<div class="container">
+    <div class="container">
       <div class="row">
-  		  <span>&copy; Copyright 2017 Patrick Preziotti</span>
+        <span>&copy; Copyright 2017 Patrick Preziotti</span>
       </div>
-      <div class="row" id="social-container">
-        <a href="https://github.com/ppreziotti" target="_blank"><img class="img-circle social" src="assets/images/1486967680_github_square_black.png" alt="github"></a>
-        <a href="https://www.linkedin.com/in/patrick-preziotti/" target="_blank"><img class="img-circle social" src="assets/images/1486967747_linkedin_square_color.png" alt="linkedin"></a>
+      <div class="row" id="social-div">
+        <a href="https://github.com/ppreziotti" target="_blank"><img class="img-circle img-responsive social" src="assets/images/1486967680_github_square_black.png" alt="github"></a>
+        <a href="https://www.linkedin.com/in/patrick-preziotti" target="_blank"><img class="img-circle img-responsive social" src="assets/images/1486967747_linkedin_square_color.png" alt="linkedin"></a>
       </div>
-  	</div>
+    </div>
   </footer>
 
 </body>
