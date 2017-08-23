@@ -4,10 +4,18 @@
 }
 
 #contact {
-  background-image: url('../images/green_dust_scratch.png');
+  background-image: url('../images/StockSnap_JFPYO9HEZR.jpg');
+  background-size: cover;
+  height: 700px;
   padding-top: 50px;
   padding-bottom: 50px;
   width: 100%;
+}
+
+#contact-form {
+  background-color: #A8BFAB;
+  margin-top: 40px;
+  padding-bottom: 15px;
 }
 
 footer {
@@ -25,7 +33,7 @@ footer {
 }
 
 .jumbotron {
-  background-image: url('../images/markus-spiske-109588.jpg');
+  background-image: url('../images/StockSnap_LI3Y5U376X.jpg');
   background-size: cover;
   height: 800px;
   margin-top: 0;
