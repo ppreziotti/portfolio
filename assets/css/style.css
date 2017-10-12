@@ -3,6 +3,10 @@
   padding-top: 180px;
 }
 
+.active {
+  background-color: white;
+}
+
 #brand {
   color: white;
 }
