@@ -31,3 +31,18 @@ $(window).on('scroll', function() {
 		}
 	});
 });
+
+function changeJumbotronImage() {
+	var images = ['StockSnap_LI3Y5U376X.jpg', 'StockSnap_CWYK8CLC61.jpg', 'StockSnap_DKNN0YHNEE.jpg', 'StockSnap_UQ9AB8NRV9.jpg'];
+	var currentIndex = 0;
+	setInterval(function() {
+		if (currentIndex === images.length) {
+			currentIndex = 0;
+		}
+		$('.jumbotron').css('background-image', 'url("assets/images/' + images[currentIndex++] + '")');
+	}, 3000);
+}
+
+$(document).ready(function() {
+	changeJumbotronImage();
+});
