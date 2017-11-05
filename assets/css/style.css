@@ -1,10 +1,22 @@
 #about {
   color: white;
   padding-top: 180px;
+  position: relative;
 }
 
 .active {
   background-color: white;
+}
+
+#arrow {
+  position: absolute;
+  left: 50%;
+  margin-top: 20px;
+}
+
+#arrow-img {
+  height: 50px;
+  width: 50px;
 }
 
 #brand {
