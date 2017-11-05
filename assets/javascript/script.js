@@ -32,3 +32,11 @@ $(window).on('scroll', function() {
 		}
 	});
 });
+
+$('.thumbnail').hover(
+	function() {
+		$(this).find('.caption').fadeIn();
+	}, function() {
+		$(this).find('.caption').fadeOut();
+	}
+);

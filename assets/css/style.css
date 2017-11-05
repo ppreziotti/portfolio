@@ -11,6 +11,15 @@
   color: white;
 }
 
+.caption {
+  background-color: white;
+  display: none;
+  position: absolute;
+  margin-right: 20px;
+  text-align: center;
+  top: 75px;
+}
+
 #contact {
   background-image: url('../images/StockSnap_JFPYO9HEZR.jpg');
   background-size: cover;
@@ -80,4 +89,12 @@ footer {
 #social-div {
   margin-bottom: 10px;
   margin-top: 10px;
+}
+
+.thumbnail: {
+  position: relative;
+}
+
+.thumbnail:hover .thumbnail-img {
+  opacity: 0.5;
 }
